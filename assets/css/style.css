@@ -6,19 +6,73 @@ body {
 
 .container {
   width: 360px;
-  margin: 0 auto;
+  margin: 160px auto;
+  
 }
 
 .heading {
   text-align: center;
 }
+h1{
+  font-size: 55px;
+}
 
 input {
-  margin: 20px;
-  width: 300px;
+  letter-spacing: 1px;
+  padding: 5px 5px 5px 25px;
+  line-height: 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  outline: none;
+  box-shadow: 0 0 3px lightseagreen;
+  font-size: 18px;
+  font-weight: normal;
+  display: none;
+}
+/* input:focus {
+  color: white;
+  background: rgb(90, 221, 215);
+  border: 1px solid green;
+} */
+.show {
+  display: block;
 }
 
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  /* box-shadow: 0 0 3px lightseagreen; */
+  background: rgb(20, 97, 93, 0.2);
+  /* background: rgb(15, 150, 143); */
+}
+
+li:nth-child(2n){
+  background: none;
+}
+
+span {
+  float: right;
+}
+.fa-plus {
+  color: rgb(101, 230, 159);
+  font-size: 30px;
+  margin-right: 17px;
+  margin-left: -15px; 
+}
+.fa-trash {
+  color: rgb(230, 96, 96)
 }

@@ -14,9 +14,14 @@ $('ul').on('click', "li",function () {
 // on Click, remove to-do
 $('ul').on('click', "span",function (event) {
   event.stopPropagation()
-  $(this).parent().fadeOut(1000, function(){
+  $(this).parent().fadeOut(500, function(){
     $(this).remove()
   });
+});
+
+$('h1').on('click', "span",function (event) {
+  event.stopPropagation()
+  $("input").toggleClass("show")
 });
 
 // Adding new to-do
