@@ -1,13 +1,12 @@
 body {
   font-family: 'Karla', sans-serif;
   color: white;
-  background: rgba(36, 99, 74, 0.8)
+  background: rgba(36, 99, 74, 0.8);
 }
 
 .container {
   width: 360px;
   margin: 0 auto;
- 
 }
 
 .heading {
@@ -17,4 +16,9 @@ body {
 input {
   margin: 20px;
   width: 300px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
