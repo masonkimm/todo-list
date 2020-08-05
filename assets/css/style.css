@@ -13,6 +13,7 @@ body {
 .heading {
   text-align: center;
 }
+
 h1{
   font-size: 55px;
 }
@@ -29,7 +30,7 @@ input {
   box-shadow: 0 0 3px lightseagreen;
   font-size: 18px;
   font-weight: normal;
-  display: none;
+  opacity: 1;
 }
 /* input:focus {
   color: white;
@@ -37,7 +38,10 @@ input {
   border: 1px solid green;
 } */
 .show {
-  display: block;
+  opacity: 0.2;
+}
+.hide {
+  display: none;
 }
 
 .completed {
@@ -67,12 +71,14 @@ li:nth-child(2n){
 span {
   float: right;
 }
+
 .fa-plus {
   color: rgb(101, 230, 159);
   font-size: 30px;
   margin-right: 17px;
   margin-left: -15px; 
 }
+
 .fa-trash {
   color: rgb(230, 96, 96)
 }

@@ -8,7 +8,10 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>To-Do List</title>
   </head>
@@ -16,24 +19,26 @@
     <div class="container">
       <div class="heading">
         <h2>Welcome!</h2>
-        <h1>To-Do List <span><i class="fa fa-plus"></i></span></h1>
+        <h1>
+          To-Do List <span><i class="fa fa-plus"></i></span>
+        </h1>
       </div>
 
       <hr />
-      <input type="text" placeholder="add new to-do" />
+      <form action="submit">
+        <input
+          class="show"
+          type="text"
+          placeholder="add new to-do"
+          method="POST"
+        />
+      </form>
       <ul>
-        <li>
-          Example To-do <span id="trashCan"><i class="fa fa-trash"></i></span>
-        </li>
-        <li>
-          Click to check on or off<span id="trashCan"><i class="fa fa-trash"></i></span>
-        </li>
-        <li>
-          Click on the trash can to remove <span id="trashCan"><i class="fa fa-trash"></i></span>
-        </li>
+       
       </ul>
     </div>
 
+    
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

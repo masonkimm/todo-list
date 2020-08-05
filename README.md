@@ -8,8 +8,9 @@ Deployed Link:
 Simple and light To-do-list
 
 * Save to-dos
-* Check off completed to-dos
 * Delete to-dos 
+
+* The data will be locally stored and will be accessible even when the page is refreshed. 
 
 
 ## Table of Contents:
