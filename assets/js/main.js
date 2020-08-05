@@ -1,20 +1,26 @@
-// to load the page
+let todos = [];
+
 init();
 
-// eventListners
 $('form').on('submit', submitTodos);
-
 $('ul').on('click', 'span', removeTodos);
 
-$('h1').on('click', 'span', toggleHide);
+$('h1').on('click', 'span', showInput);
 
-$('input').on('click', removeClass);
+$('input').on('click', removeOpacity);
 
-$('ul').on('click', 'li', toggleClass);
+$('ul').on('click', 'li', checkComplete);
 
-// functions & variables
-
-let todos = [];
+function checkComplete() {
+  $(this).toggleClass('completed');
+}
+function removeOpacity() {
+  $('input').removeClass('show');
+}
+function showInput(event) {
+  event.stopPropagation();
+  $('input').toggleClass('hide');
+}
 
 function init() {
   // retrieve saved todos from localStorage
@@ -77,17 +83,4 @@ function removeTodos() {
   // Store updated todos in localStorage, re-render the list
   storeTodos();
   renderTodos();
-}
-
-function toggleHide(event) {
-  event.stopPropagation();
-  $('input').toggleClass('hide');
-}
-
-function removeClass() {
-  $('input').removeClass('show');
-}
-
-function toggleClass() {
-  $(this).toggleClass('completed');
 }
