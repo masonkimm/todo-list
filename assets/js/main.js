@@ -9,11 +9,13 @@ $('h1').on('click', 'span', showInput);
 
 $('input').on('click', removeOpacity);
 
-$('ul').on('click', 'li', checkComplete);
+// $('ul').on('click', 'li', checkComplete);
 
-function checkComplete() {
-  $(this).toggleClass('completed');
-}
+// function checkComplete() {
+//   $(this).toggleClass('completed');
+  
+
+// }
 function removeOpacity() {
   $('input').removeClass('show');
 }
