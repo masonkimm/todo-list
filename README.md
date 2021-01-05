@@ -1,7 +1,7 @@
 # To-do List
 
 Deployed Link: 
-* [To-do List](#https://sungjinkimm.github.io/todo-list/)
+* (https://kbarcaa.github.io/todo-list/)
 
 ## Project Description:
 
