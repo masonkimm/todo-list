@@ -32,7 +32,7 @@ Used for:
 Command line: 
 
 ```sh
-git clone git@github.com:sungjinkimm/todo-list.git
+git clone git@github.com:kbarcaa/todo-list.git
 ```
 
 ## Credits: 
@@ -52,11 +52,11 @@ THE SOFTWARE IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPL
 
 ## Code Utilization: 
 
-![todo-list](https://img.shields.io/github/languages/top/sungjinkimm/todo-list)
+![todo-list](https://img.shields.io/github/languages/top/kbarcaa/todo-list)
 
 ## GitHub URL & Profile
 
-[https://github.com/sungjinkimm](https://github.com/sungjinkimm)
+[https://github.com/sungjinkimm](https://github.com/kbarcaa)
 
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/50185484?v=4)
