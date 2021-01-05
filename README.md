@@ -56,7 +56,7 @@ THE SOFTWARE IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPL
 
 ## GitHub URL & Profile
 
-[https://github.com/sungjinkimm](https://github.com/kbarcaa)
+[https://github.com/kbarcaa](https://github.com/kbarcaa)
 
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/50185484?v=4)
