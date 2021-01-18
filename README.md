@@ -1,38 +1,43 @@
 # To-do List
 
-Deployed Link: 
-* (https://kbarcaa.github.io/todo-list/)
+Deployed Link: (https://masonkimm.github.io/todo-list)
 
-## Project Description:
+## Description:
 
-Simple and light To-do-list
+Simple and light To-do-list with local storage
 
 * Save to-dos
 * Delete to-dos 
+* Load previous to-dos
 
-* The data will be locally stored and will be accessible even when the page is refreshed. 
-
+Utilized: 
+* HTML
+* JavaScript
+* CSS
+* Bootstrap
 
 ## Table of Contents:
 
-* [Usage](#Usage)
-* [Installation](#Installation)
+* [Description](#Description)
+* [Git Hub](#GitHub)
+* [Available Scripts](#Available_Scripts)
 * [Credits](#Credits)
 * [License](#License)
 
-## Business Context
+## Code Utilization: 
+* Language Count: ![](https://img.shields.io/github/languages/count/masonkimm/todo-list)
+* Top language: ![](https://img.shields.io/github/languages/top/masonkimm/todo-list)
 
-Used for:  
+## GitHub URL & Profile
 
-* School homework assignment tracker
-* Work tasks tracker
-* Grocery Shopping 
+[https://github.com/masonkimm](https://github.com/masonkimm)
 
-## Installation:
+
+## Available_Scripts:
 Command line: 
 
 ```sh
-git clone git@github.com:kbarcaa/todo-list.git
+git clone git@github.com:masonkimm/todo-list.git
 ```
 
 ## Credits: 
@@ -49,14 +54,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-## Code Utilization: 
-
-![todo-list](https://img.shields.io/github/languages/top/kbarcaa/todo-list)
-
-## GitHub URL & Profile
-
-[https://github.com/kbarcaa](https://github.com/kbarcaa)
-
-
-![GitHub Avatar](https://avatars0.githubusercontent.com/u/50185484?v=4)
